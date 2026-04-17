@@ -3,6 +3,8 @@
 #include "input.h"
 
 int main() {
+    std::cout << "Simple calculator" << std::endl;
+
     double a = getNumber("Enter first number: ");
     double b = getNumber("Enter second number: ");
     char op = getOperation();
