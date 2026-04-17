@@ -28,6 +28,6 @@ double calculate(double a, double b, char op) {
     case '*': return multiply(a, b);
     case '/': return divide(a, b);
     default:
-        return 0;
+        throw std::runtime_error("Invalid operation");
     }
 }
