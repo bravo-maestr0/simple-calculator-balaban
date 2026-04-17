@@ -13,6 +13,7 @@ int main() {
     try {
         double result = calculate(a, b, op);
         std::cout << "Result: " << result << std::endl;
+        std::cout << "Calculation done" << std::endl;
     }
     catch (const std::exception& e) {
         std::cout << e.what() << std::endl;
