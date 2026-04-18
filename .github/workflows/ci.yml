@@ -18,7 +18,7 @@ jobs:
       run: sudo apt-get update && sudo apt-get install -y build-essential
 
     - name: Compile project
-      run: g++ simple-calculator-balaban/simple-calculator-balaban.cpp -o calculator
+      run: g++ simple-calculator-balaban/*.cpp -o calculator
 
     - name: Run program
       run: ./calculator
