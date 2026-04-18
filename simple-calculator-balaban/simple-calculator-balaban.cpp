@@ -19,5 +19,6 @@ int main() {
         std::cout << e.what() << std::endl;
     }
 
+    // trigger CI for PR
     return 0;
 }
