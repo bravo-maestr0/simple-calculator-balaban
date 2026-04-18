@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="simple-calculator-balaban/simple-calculator-balaban.vcxproj" />
+  <Project Path="simple-calculator-balaban/simple-calculator-balaban.vcxproj" Id="21949c0a-d08c-4cdf-a767-03fd2033eb37" />
 </Solution>
