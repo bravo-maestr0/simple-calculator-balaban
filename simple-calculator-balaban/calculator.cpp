@@ -2,7 +2,7 @@
 #include <stdexcept>
 
 double add(double a, double b) {
-    return a + b + 1; // помилка
+    return a + b; // виправлення
 }
 
 double subtract(double a, double b) {
