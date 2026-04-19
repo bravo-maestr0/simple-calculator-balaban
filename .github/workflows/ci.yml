@@ -16,10 +16,10 @@ jobs:
       run: sudo apt-get update && sudo apt-get install -y build-essential cppcheck
 
     - name: Compile project
-      run: g++ simple-calculator-balaban/*.cpp -o calculator
+      run: g++ simple-calculator-balaban/simple-calculator-surname.cpp simple-calculator-balaban/calculator.cpp simple-calculator-balaban/input.cpp -o calculator
 
     - name: Compile tests
-      run: g++ tests/test.cpp simple-calculator-balaban/*.cpp -o test
+      run: g++ tests/test.cpp simple-calculator-balaban/calculator.cpp simple-calculator-balaban/input.cpp -o test
 
     - name: Run tests
       run: ./test
