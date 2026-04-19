@@ -4,7 +4,7 @@
 
 int main() {
     std::cout << "Simple calculator" << std::endl;
-    std::cout << "Calculator started" << std::endl;
+    std::cout << "Calculator started (review version)" << std::endl;
 
     double a = getNumber("Enter first number: ");
     double b = getNumber("Enter second number: ");
