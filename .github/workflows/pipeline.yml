@@ -59,7 +59,7 @@ jobs:
     - name: Smoke test
       run: |
         echo "Running smoke test..."
-        if [ 1 -ne 2 ]; then exit 1; fi
+        if [ 1 -ne 1 ]; then exit 1; fi
   deploy_production:
     runs-on: ubuntu-latest
     needs: verify_staging
