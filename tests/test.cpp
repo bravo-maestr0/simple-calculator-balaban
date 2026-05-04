@@ -3,7 +3,7 @@
 
 int main() {
     // тест додавання
-    assert(add(2, 3) == 10);
+    assert(add(2, 3) == 5);
 
     // тест віднімання
     assert(subtract(5, 3) == 2);
